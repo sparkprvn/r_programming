@@ -176,3 +176,8 @@ selection_vector <- roulette_vector >0
 
 # Select from roulette_vector these days
 roulette_winning_days <- roulette_vector[selection_vector]
+
+
+# Construct a matrix with 3 rows that contain the numbers 1 up to 9
+
+matrix(1:9, byrow = TRUE, nrow = 3)
